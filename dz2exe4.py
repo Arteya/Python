@@ -1,0 +1,11 @@
+list_names = ['инженер-конструктор Игорь', 'главный бухгалтер МАРИНА', 'токарь высшего разряда нИКОЛАй', 'директор аэлита']
+print(list_names)
+str_names = ",".join(list_names)
+list_names = str_names.split(' ')
+str_names = ','.join(list_names)
+print(str_names)
+list_names = str_names.split(',')
+print("Привет,", list_names[1])
+print("Привет,", list_names[4].capitalize())
+print("Привет,", list_names[8].capitalize())
+print("Привет,", list_names[-1].capitalize())
